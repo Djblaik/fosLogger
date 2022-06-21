@@ -20,6 +20,7 @@ import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
 import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Objects;
 import java.util.ResourceBundle;
 
 
@@ -60,11 +61,14 @@ public class homeScreen {
             }
         });
     }
+
     //create the main window
     public static void main(String[] args) {
+        ImageIcon logo = new ImageIcon(Objects.requireNonNull(homeScreen.class.getClassLoader().getResource("weatherstationicon.png")));
         JFrame frame = new JFrame(FosEn.getString("fos.logger"));
         frame.setContentPane(new homeScreen().mainPanel);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setIconImage(logo.getImage());
         frame.pack();
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
