@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.djblaik.homeScreen">
+  <grid id="27dc6" binding="mainPanel" layout-manager="FlowLayout" hgap="10" vgap="10" flow-align="1">
+    <constraints>
+      <xy x="188" y="30" width="414" height="600"/>
+    </constraints>
+    <properties>
+      <alignmentX value="0.0"/>
+      <alignmentY value="0.0"/>
+      <autoscrolls value="false"/>
+      <enabled value="true"/>
+      <focusable value="true"/>
+      <maximumSize width="400" height="100"/>
+      <minimumSize width="400" height="100"/>
+      <opaque value="true"/>
+      <preferredSize width="400" height="100"/>
+      <requestFocusEnabled value="false"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="e79e" class="javax.swing.JButton" binding="serverStart">
+        <constraints/>
+        <properties>
+          <actionCommand value="button"/>
+          <background color="-16724992"/>
+          <borderPainted value="true"/>
+          <contentAreaFilled value="true"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font style="1"/>
+          <foreground color="-1"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <label resource-bundle="Fos_En" key="start.server"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <maximumSize width="110" height="30"/>
+          <minimumSize width="110" height="30"/>
+          <preferredSize width="110" height="30"/>
+          <text resource-bundle="Fos_En" key="start.server1"/>
+          <verticalAlignment value="0"/>
+        </properties>
+        <clientProperties>
+          <html.disable class="java.lang.Boolean" value="false"/>
+        </clientProperties>
+      </component>
+      <component id="ccbdc" class="javax.swing.JButton" binding="serverStop">
+        <constraints/>
+        <properties>
+          <actionCommand value="button"/>
+          <alignmentX value="0.0"/>
+          <background color="-65536"/>
+          <doubleBuffered value="false"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font style="1"/>
+          <foreground color="-1"/>
+          <hideActionText value="false"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <label resource-bundle="Fos_En" key="stop.server"/>
+          <maximumSize width="110" height="30"/>
+          <minimumSize width="110" height="30"/>
+          <opaque value="true"/>
+          <preferredSize width="110" height="30"/>
+          <text resource-bundle="Fos_En" key="stop.server1"/>
+        </properties>
+      </component>
+      <hspacer id="218fd">
+        <constraints/>
+      </hspacer>
+      <component id="ee00f" class="javax.swing.JLabel" binding="portNolabel">
+        <constraints/>
+        <properties>
+          <labelFor value="e4d7b"/>
+          <text resource-bundle="Fos_En" key="port.no"/>
+        </properties>
+      </component>
+      <component id="e4d7b" class="javax.swing.JTextField" binding="portNo">
+        <constraints/>
+        <properties>
+          <maximumSize width="50" height="30"/>
+          <minimumSize width="50" height="30"/>
+          <preferredSize width="50" height="30"/>
+          <text value="8080"/>
+        </properties>
+      </component>
+      <component id="c1c23" class="javax.swing.JLabel" binding="serverStatusTitle">
+        <constraints/>
+        <properties>
+          <alignmentY value="0.5"/>
+          <autoscrolls value="true"/>
+          <enabled value="true"/>
+          <font style="1"/>
+          <horizontalAlignment value="2"/>
+          <labelFor value="c1c23"/>
+          <maximumSize width="1920" height="30"/>
+          <minimumSize width="90" height="30"/>
+          <name resource-bundle="Fos_En" key="server.status"/>
+          <preferredSize width="90" height="30"/>
+          <requestFocusEnabled value="false"/>
+          <text resource-bundle="Fos_En" key="server.status1"/>
+        </properties>
+      </component>
+      <component id="29ed8" class="javax.swing.JLabel" binding="serverStatus">
+        <constraints/>
+        <properties>
+          <labelFor value="29ed8"/>
+          <name resource-bundle="Fos_En" key="server.status.text1"/>
+          <preferredSize width="120" height="30"/>
+          <requestFocusEnabled value="true"/>
+          <text resource-bundle="Fos_En" key="server.status.text1"/>
+        </properties>
+      </component>
+      <hspacer id="8ba08">
+        <constraints/>
+      </hspacer>
+      <hspacer id="50a0">
+        <constraints/>
+      </hspacer>
+      <hspacer id="397ff">
+        <constraints/>
+      </hspacer>
+      <component id="bf008" class="javax.swing.JLabel" binding="receivingLabel">
+        <constraints/>
+        <properties>
+          <labelFor value="73a20"/>
+          <name value=""/>
+          <text resource-bundle="Fos_En" key="receiving.label"/>
+        </properties>
+      </component>
+      <component id="73a20" class="javax.swing.JButton" binding="receivingButton">
+        <constraints/>
+        <properties>
+          <alignmentY value="0.0"/>
+          <background color="-12303292"/>
+          <borderPainted value="false"/>
+          <enabled value="false"/>
+          <focusable value="true"/>
+          <foreground color="-12303292"/>
+          <horizontalTextPosition value="0"/>
+          <label resource-bundle="Fos_En" key="receiving.button.label"/>
+          <maximumSize width="12" height="12"/>
+          <minimumSize width="12" height="12"/>
+          <preferredSize width="12" height="12"/>
+          <rolloverEnabled value="false"/>
+          <text value="" noi18n="true"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
