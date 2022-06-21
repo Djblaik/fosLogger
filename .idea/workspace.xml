@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8e3c0cd-61d6-4d9b-b619-68f5f3119887" name="Changes" comment="Update version number">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/djblaik/homeScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/djblaik/homeScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/djblaik/homeScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/djblaik/homeScreen.class" afterDir="false" />
-    </list>
+    <list default="true" id="b8e3c0cd-61d6-4d9b-b619-68f5f3119887" name="Changes" comment="Update version number" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655783991978</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update version number">
+      <created>1655792490994</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655792490994</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,27 +127,27 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/djblaik/homeScreen.java</url>
-          <line>89</line>
+          <line>90</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/djblaik/homeScreen.java</url>
-          <line>92</line>
+          <line>93</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/djblaik/homeScreen.java</url>
-          <line>125</line>
+          <line>126</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/djblaik/homeScreen.java</url>
-          <line>160</line>
+          <line>161</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/djblaik/homeScreen.java</url>
-          <line>88</line>
+          <line>89</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
